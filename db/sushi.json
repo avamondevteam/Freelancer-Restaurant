@@ -1,0 +1,224 @@
+[
+    {
+        "name": "Maki 6 db",
+        "ingredient": [
+            {
+                "name": "Cá hồi/Lazac/Salmon",
+                "calo": "1490ft"
+            },
+            {
+                "name": "Cá ngừ/ Tonhal/tuna",
+                "calo": "1690ft"
+            },
+            {
+                "name": "Dưa chuột/Uborka/Cucumber",
+                "calo": "1290ft"
+            },
+            {
+                "name": "Củ cải/ Rétek japán/Radish",
+                "calo": "1290ft"
+            },
+            {
+                "name": "Trứng/ Tojás/ Egg",
+                "calo": "1290ft"
+            },
+            {
+                "name": "Surimi/Surimi/Surimi",
+                "calo": "1990ft"
+            },
+            {
+                "name": "Lươn+dưa chuột/ unagi+uborka/ unagi+ uborka",
+                "calo": "2490ft"
+            },
+            {
+                "name": "Bơ/avókádó/avocado",
+                "calo": "1490ft"
+            },
+            {
+                "name": "Tôm/Rák/ shrimp",
+                "calo": "1690ft"
+            }
+        ]
+    },
+    {
+        "name": "Nigiri 2db",
+        "ingredient": [
+            {
+                "name": "Sò điệp/Kagyló/Scallops",
+                "calo": "1990 ft"
+            },
+            {
+                "name": "Cá hồi/ Lazac/ Salmon",
+                "calo": "1590 ft"
+            },
+            {
+                "name": "Cá ngừ/Tonhal/ Tuna",
+                "calo": "1890 ft"
+            },
+            {
+                "name": "Tôm/Rák/Shrimp",
+                "calo": "1490 ft"
+            },
+            {
+                "name": "Mực/Tintal/ Squids",
+                "calo": "1490 ft"
+            },
+            {
+                "name": "Bạch tuộc/Tintal Hal/Octupus",
+                "calo": "1490 ft"
+            },
+            {
+                "name": "Sò đỏ/Hokkigai/Hokkigai",
+                "calo": "1490 ft"
+            },
+            {
+                "name": "Lươn/Unagi/Unagi",
+                "calo": "1990 ft"
+            },
+            {
+                "name": "Bơ/avókádó/avocado",
+                "calo": "1590 ft"
+            },
+            {
+                "name": "Trứng/tojás/eggs",
+                "calo": "1590 ft"
+            }
+        ]
+    },
+    {
+        "name": "Sashimi",
+        "ingredient": [
+            {
+                "name": "5 db (lazac,tuna,octopus,japán scallops,Hokkigai",
+                "calo": "2490 ft"
+            }
+        ]
+    },
+    {
+        "name": "Koi Sashi mix",
+        "ingredient": [
+            {
+                "name": "Vegyes halszeletek 15db",
+                "calo": "5950ft"
+            },
+            {
+                "name": "Vegyes halszeletek 9db",
+                "calo": "4390ft"
+            },
+            {
+                "name": "Vegyes halszeletek 7db",
+                "calo": "3750ft"
+            }
+        ]
+    },
+    {
+        "name": "Temaki",
+        "ingredient": [
+            {
+                "name": "Lazac/Salmon/Cá hồi",
+                "calo": "1490ft"
+            },
+            {
+                "name": "Rák/Shrimps/Tôm",
+                "calo": "1490ft"
+            },
+            {
+                "name": "Unagi",
+                "calo": "1690ft"
+            },
+            {
+                "name": "Vörös tonhal/ tuna",
+                "calo": "1790ft"
+            },
+            {
+                "name": "Zöldségek",
+                "calo": "1290ft"
+            }
+        ]
+    },
+    {
+        "name": "Gunkan",
+        "ingredient": [
+            {
+                "name": "Rong biển/Wakame",
+                "calo": "1290ft"
+            },
+            {
+                "name": "Trứng cá/ Hal Tojás",
+                "calo": "1490ft"
+            },
+            {
+                "name": "Trứng cá hồi/Lazac hal tojás",
+                "calo": "1590ft"
+            },
+            {
+                "name": "Cá hồi trộn salat/lazac és chili majonéz",
+                "calo": "1690ft"
+            }
+        ]
+    },
+    {
+        "name": "Set",
+        "ingredient": [
+            {
+                "name": "2 fő:(5 nigiri,3 sashimi,2 gunkan,4 maki,4 roll,1 temaki ,Edamame bab)",
+                "calo": "9990ft"
+            },
+            {
+                "name": "Party: (2 nigiri lazac,2 nigiri tuna,2 nigiri rák,1 maki lazac,1 maki avocado,1 roll koi,3 sashimi lazac,3 sashimi tuna,2 gukan tojás Hal,2 Gukan tojás hal lazac,1 roll sült tekercs,1 roll avokado)",
+                "calo": "14990ft"
+            }
+        ]
+    },
+    {
+        "name": "Roll Japán sushi",
+        "ingredient": [
+            {
+                "name": "California",
+                "calo": "3690ft"
+            },
+            {
+                "name": "Dragon roll",
+                "calo": "3990ft"
+            },
+            {
+                "name": "Avokado",
+                "calo": "3490ft"
+            },
+            {
+                "name": "Tonhal",
+                "calo": "4490ft"
+            },
+            {
+                "name": "Lazac",
+                "calo": "4290ft"
+            },
+            {
+                "name": "Koi roll (csak has lazaccal)",
+                "calo": "3990ft"
+            }
+        ]
+    },
+    {
+        "name": "Koi bento",
+        "ingredient": [
+            {
+                "name": "",
+                "calo": "6990ft"
+            }
+        ]
+    },
+    {
+        "name": "Specialis roll by koi",
+        "ingredient": [
+            {
+                "name": "Gunkan Koi ",
+                "calo": "4990ft"
+            },
+            {
+                "name": "Roll by Koi",
+                "calo": "5490ft"
+            }
+        ]
+    }
+]

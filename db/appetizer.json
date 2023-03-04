@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Thai Hal pogácsa",
+        "calo": "1990 ft",
+        "description": [
+            "Thai fish cake",
+            "Chả cá Thái Lan."
+        ]
+    },
+    {
+        "name": "Rák tempura",
+        "calo": "1990 ft",
+        "description": [
+            "Shrimp tempura",
+            "Tôm chiên xù"
+        ]
+    },
+    {
+        "name": "Edamame bab",
+        "calo": "990 ft",
+        "description": [
+            "Edamame bean",
+            "Đậu Nhật hấp."
+        ]
+    },
+    {
+        "name": "Sült gyoza",
+        "calo": "1690 ft",
+        "description": [
+            "Fried dumpling",
+            "Há cảo chiên"
+        ]
+    },
+    {
+        "name": "Nyári terkecs",
+        "calo": "1990 ft",
+        "description": [
+            "Summer rolls",
+            "Gỏi cuốn"
+        ]
+    },
+    {
+        "name": "Tintahal tempura",
+        "calo": "1990 ft",
+        "description": [
+            "Squid tempura",
+            "Mực tẩm bột chiên."
+        ]
+    },
+    {
+        "name": "Tavaszi terkecs",
+        "calo": "1690 ft",
+        "description": [
+            "Spring rolls",
+            "Chả nem."
+        ]
+    },
+    {
+        "name": "Mangó és szárított rák saláta",
+        "calo": "2790 ft",
+        "description": [
+            "Mango and dried shrimp salad",
+            "Salad xoài trộn tôm khô."
+        ]
+    },
+    {
+        "name": "Mangó saláta tigris rákkal",
+        "calo": "2790 ft",
+        "description": [
+            "Mango salad with tiger shrimp",
+            "Nộm xoài tôm"
+        ]
+    },
+    {
+        "name": "Koi saláta",
+        "calo": "2490 ft",
+        "description": [
+            "Koi salad",
+            "Nộm quán koi"
+        ]
+    },
+    {
+        "name": "Wakame saláta",
+        "calo": "990 ft",
+        "description": [
+            "Wakame salad",
+            "Salad rong biển"
+        ]
+    },
+    {
+        "name": "Kim chi",
+        "calo": "990 ft",
+        "description": []
+    },
+    {
+        "name": "Papaya saláta thai szósszal",
+        "calo": "2990 ft",
+        "description": [
+            "Papaya salad",
+            "Nộm đu đủ"
+        ]
+    },
+    {
+        "name": "Marha saláta",
+        "calo": "2490 ft",
+        "description": [
+            "Beef salad.",
+            "Nộm gầu bò"
+        ]
+    }
+]
