@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Hot pot kecske hússal",
+        "calo": "28000 ft",
+        "images": [
+
+        ],
+        "description":[
+            "Hot pot with goat",
+            "Lẩu dê"
+        ]
+    },
+    {
+        "name": "Hot pot békacomb - savanyú bambuszzal",
+        "calo": "25000 ft",
+        "images": [
+            "images/hotpot/50.hotpotbékacomb.jpg"
+        ],
+        "description":[
+            "Hot pot frog leg-sour bamboo",
+            "Lẩu ếch măng chua"
+        ]
+    },
+    {
+        "name": "Hot pot ponty-fűszer savanyúság",
+        "calo": "25000 ft",
+        "images": [
+
+        ],
+        "description":[
+            "Cá chép om dưa"
+        ]
+    },
+    {
+        "name": "Hot pot Thai mód",
+        "calo": "25000 ft",
+        "images": [
+            "images/hotpot/52.HotpotThaimód.jpg"
+        ],
+        "description":[
+            "Hot pot with Thai style",
+            "Lẩu hải sản thập cẩm kiểu thái"
+        ]
+    },
+    {
+        "name": "Vegyes Angolna, tofu,zöld banán",
+        "calo": "28000 ft",
+        "images": [
+
+        ],
+        "description":[
+            "Mixef bowl with eel, tofu, green banana",
+            "Lươn om chuối đậu."
+        ]
+    }
+]

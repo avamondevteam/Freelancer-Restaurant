@@ -32,10 +32,12 @@
 							<span style="font-size: 12px !important;" class="price">${value.calo}</span>
 						</div>
 					</div>`
-				)
+				).join('')
 				var elementSushi = `
 							<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
-								<div class="menu-img img" style="background-image: url(images/breakfast-1.jpg);"></div>
+								
+									<div class="menu-img img" style="background-image: url(${value.images[0]});"></div>
+									
 								<div class="text">
 									<div class="">
 										<h6 style="color: #E52B34;">${value.name}</h6>
@@ -62,7 +64,7 @@
 						
 							${value.description.map(data => {
 									return `<div class=""><p><span style="font-size: 12px;">${data}</span></p></div>`
-								})}
+								}).join('')}
 						
 					</div>
 				</div>
@@ -70,12 +72,165 @@
 				$(elementAppetizer).appendTo(".appetizer");
 			})
 		}))
+		const dataSoup = $.getJSON('db/soup.json', (data => {
+			$.each(data, function (key, value) {
+				var elementSoup = `
+				<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
+					<div class="text">
+						<div class="d-flex justify-content-between">
+						<div class="">
+							<h6 style="color: #E52B34;">${value.name}</h6>
+						</div>
+						<div class="one-forth">
+							<span style="font-size: 12px !important;" class="price">${value.calo}</span>
+						</div>
+					</div>
+						${value.description.map(data => {
+							return `
+							<div class="d-flex justify-content-between">
+								<p><span style="font-size: 12px;">${data.name}</span></p>
+								
+								<div class="one-forth">
+									<span style="font-size: 12px !important;" class="price">${data.calo}</span>
+								</div>
+							</div>
+							`
+						}).join('')}
+					</div>
+				</div>
+				`
+				$(elementSoup).appendTo(".soup");
+			})
+		}))
+		const dataMainFood = $.getJSON('db/mainDishes.json', function (data) {
+			$.each(data, function (key, value) {
+				var elementMainDishes = `
+				<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="menu-img img" style="background-image: url(images/dessert-1.jpg);"></div>
+					<div class="text">
+						<div class="d-flex justify-content-between">
+							<div class="">
+								<h6 style="color: #E52B34;">${value.name}</h6>
+							</div>
+							<div class="one-forth">
+								<span style="font-size: 12px !important;" class="price">${value.calo}</span>
+							</div>
+						</div>
+						${value.description.map((data => {
+							return `
+							<div class="d-flex justify-content-between">
+								<p><span style="font-size: 12px;">${data}</span></p>
+							</div>
+							`
+						})).join('')}
+					</div>
+				</div>
+				`
+				$(elementMainDishes).appendTo(".main-dishes");
+			})
+		})
+
+		const dataHotPot = $.getJSON('db/pre-orderHotPot.json', function(data) {
+			$.each(data, function(key, value) {
+				var elementHotPot = `
+				
+				<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="menu-img img" style="background-image: url(images/wine-1.jpg);"></div>
+					<div class="text">
+						<div class="d-flex justify-content-between">
+							<div class="">
+								<h6 style="color: #E52B34;">${value.name}</h6>
+							</div>
+							<div class="one-forth">
+								<span style="font-size: 12px !important;" class="price">${value.calo}</span>
+							</div>
+						</div>
+						${value.description.map((data => {
+							return `
+							<div class="d-flex justify-content-between">
+								<p><span style="font-size: 12px;">${data}</span></p>
+							</div>
+							`
+						})).join('')}
+					</div>
+				</div>
+				`
+				$(elementHotPot).appendTo(".hot-pot");
+			})
+		})
+
+		const dataItallap = $.getJSON('db/itallap.json', function (data) {
+			$.each(data, function (key, value) {
+				var elementItallap = `
+				<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="menu-img img" style="background-image: url(${value.images[0]});"></div>
+					<div class="text">
+						<div class="">
+							<h6 style="color: #E52B34;">${value.name}</h6>
+						</div>
+						${value.description.map((data => {
+							return `
+							<div class="">
+								<h6 style="color: #E52B34;">${data.title}</h6>
+							</div>
+							${data.type.map((type => {
+								return `
+								<div class="d-flex justify-content-between">
+									<p><span style="font-size: 12px;">${type.name}</span></p>
+									
+									<div class="one-forth">
+										<span style="font-size: 12px !important;" class="price">${type.calo}</span>
+									</div>
+								</div>
+								`
+							})).join('')}
+							`
+						})).join('')}
+					</div>
+				</div>
+				`
+				$(elementItallap).appendTo(".itallap");
+			})
+		})
+
+		const dataDesszert = $.getJSON('db/desszert.json', function(data) {
+			$.each(data, function(key, value) {
+				var elementDesszert = `
+				
+				<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="menu-img img" style="background-image: url(${value.images[0]});"></div>
+					<div class="text">
+						<div class="d-flex justify-content-between">
+							<div class="">
+								<h6 style="color: #E52B34;">${value.name}</h6>
+							</div>
+							<div class="one-forth">
+								<span style="font-size: 12px !important;" class="price">${value.calo}</span>
+							</div>
+						</div>
+						${value.description.map((data => {
+							return `
+							<div class="d-flex justify-content-between">
+								<p><span style="font-size: 12px;">${data}</span></p>
+							</div>
+							`
+						})).join('')}
+					</div>
+				</div>
+				`
+				$(elementDesszert).appendTo(".desszert");
+			})
+		})
 	</script>
 </head>
 <body>
-
+	<div class="overlay">
+		
+	</div>
 	<div class="wrap">
 		<div class="container">
+			
 			<div class="row justify-content-between">
 				<div class="col-12 col-md d-flex align-items-center">
 					<p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="tel://+36 30 898 9499">+36308989499</a></p>
@@ -255,8 +410,13 @@
 				</div>
 			</div>
 			<div class="mb-3 ">
-				<button type="button" class="btn btn-danger button-appetizer">Appetizer</button>
-				<button type="button" class="btn btn-danger ml-4 button-sushi">Sushi</button>
+				<button type="button" class="mb-3 btn btn-danger button-appetizer">Appetizer</button>
+				<button type="button" class="mb-3 btn btn-danger button-sushi">Sushi</button>
+				<button type="button" class="mb-3 btn btn-danger button-soup">Levesek/soup</button>
+				<button type="button" class="mb-3 btn btn-danger button-main-dishes">FŐÉTELEK/MÓN CHÍNH</button>
+				<button type="button" class="mb-3 btn btn-danger button-hot-pot">HOT POT: 24 ÓRAVAL ÉZELŐTT KELL RENDELNI</button>
+				<button type="button" class="mb-3 btn btn-danger button-itallap">ITALLAP/NƯỚC UỐNG</button>
+				<button type="button" class="mb-3 btn btn-danger button-desszert">DESSERTS</button>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-lg-12 toggle-sushi">
@@ -283,568 +443,76 @@
 					</div>
 				</div>
 
-				<!-- <div class="col-md-6 col-lg-4">
+				<div class="col-md-12 col-lg-12 toggle-soup">
 					<div class="menu-wrap">
-						<div class="heading-menu text-center ftco-animate">
+						<div class="heading-menu text-left ftco-animate">
 							<h3>Levesek/soup</h3>
 						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/dinner-2.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus border-bottom-0 d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/dinner-3.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
+						<div class="row soup">
+
 						</div>
 						<span class="flat flaticon-omelette" style="left: 0;"></span>
 						<span class="flat flaticon-burger" style="right: 0;"></span>
 					</div>
-				</div> -->
+				</div>
 
 				<!--  -->
-				<!-- <div class="col-md-6 col-lg-4">
+				<div class="col-md-12 col-lg-12 toggle-main-dishes">
 					<div class="menu-wrap">
-						<div class="heading-menu text-center ftco-animate">
+						<div class="heading-menu text-left ftco-animate">
 							<h3>Főételek/Món chính</h3>
 						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/dessert-1.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/dessert-2.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus border-bottom-0 d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/dessert-3.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
+						<div class="row main-dishes">
+
 						</div>
 						<span class="flat flaticon-cupcake" style="left: 0;"></span>
 						<span class="flat flaticon-ice-cream" style="right: 0;"></span>
 					</div>
 				</div>
-				 -->
-				<!-- <div class="col-md-6 col-lg-4">
+				
+				<div class="col-md-12 col-lg-12 toggle-hot-pot">
 					<div class="menu-wrap">
-						<div class="heading-menu text-center ftco-animate">
+						<div class="heading-menu text-left ftco-animate">
 							<h3 style="font-size: 15px;">Hot pot: 24 óraval ézelőtt kell rendelni</h3>
 						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/wine-1.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/wine-2.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus border-bottom-0 d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/wine-3.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Roll Japán sushi: 8 db</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">California</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">3690ft</span>
-									</div>
-								</div>
-							</div>
+						<div class="row hot-pot">
+
 						</div>
 						<span class="flat flaticon-wine" style="left: 0;"></span>
 						<span class="flat flaticon-wine-1" style="right: 0;"></span>
 					</div>
-				</div> -->
+				</div>
 
-				<!-- <div class="col-md-6 col-lg-4">
+				<div class="col-md-12 col-lg-12 toggle-itallap">
 					<div class="menu-wrap">
-						<div class="heading-menu text-center ftco-animate">
+						<div class="heading-menu text-left ftco-animate">
 							<h3>Itallap/Nước uống</h3>
 						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/drink-1.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Bor/wine - Sör</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Rượu sake/ riszbor 0.1</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1290ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Soju ital/Rượu soju 0.3</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">2190ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Asahi (Japán)</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">990ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Sài gòn: (Việt Nam)</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1290ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Dreher 0,5l</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">600ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/drink-2.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Coktail/ koktél</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Mojito</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1490ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Blue tequila</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1490ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Blue ocean</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1490ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Narancs tequila</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1990ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Margarital</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">1290ft</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="menus border-bottom-0 d-flex ftco-animate">
-							<div class="menu-img img" style="background-image: url(images/drink-3.jpg);"></div>
-							<div class="text">
-								<div class="">
-									<h6 style="color: #E52B34;">Kávé</h6>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Espresso</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">550ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Capuccino</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">650ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Latte machiato</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">750ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Koffeinmentes kávé</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">550ft</span>
-									</div>
-								</div>
-								<div class="d-flex justify-content-between">
-									<p><span style="font-size: 12px;">Phin kávé</span></p>
-									
-									<div class="one-forth">
-										<span style="font-size: 12px !important;" class="price">750ft</span>
-									</div>
-								</div>
-							</div>
+						<div class="row itallap">
+
 						</div>
 						<span class="flat flaticon-wine" style="left: 0;"></span>
 						<span class="flat flaticon-wine-1" style="right: 0;"></span>
 					</div>
-				</div> -->
+				</div>
+				<div class="col-md-12 col-lg-12 toggle-desszert">
+					<div class="menu-wrap">
+						<div class="heading-menu text-left ftco-animate">
+							<h3>Desszert</h3>
+						</div>
+						<div class="row desszert">
+
+						</div>
+						<span class="flat flaticon-wine" style="left: 0;"></span>
+						<span class="flat flaticon-wine-1" style="right: 0;"></span>
+					</div>
+				</div>
 			</div>
 		</div>
 
 	</section>
 
-	<!-- <section class="ftco-section testimony-section" style="background-image: url(images/bg_5.jpg);">
+	<section class="ftco-section testimony-section" style="background-image: url(images/bg_5.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row justify-content-center mb-3 pb-2">
@@ -930,7 +598,7 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 	
 	<section class="ftco-section bg-light">
 		<!-- <div class="container">

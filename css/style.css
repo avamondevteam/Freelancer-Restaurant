@@ -9091,7 +9091,9 @@ h1, h2, h3, h4, h5,
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; }
+    border-radius: 50%; 
+    cursor: pointer;
+  }
   .menus:hover {
     border-color: #e52b34; }
     .menus:hover .text h3 {
@@ -9968,10 +9970,34 @@ textarea.form-control {
   stroke-linecap: round; }
 
 .toggle-sushi {
-  display: none;
+  display: block;
 }
 .toggle-appetizer {
-  display: block;
+  display: none;
+}
+.toggle-soup {
+  display: none;
+}
+.toggle-main-dishes {
+  display: none;
+}
+.toggle-hot-pot {
+  display: none;
+}
+.toggle-itallap {
+  display: none;
+}
+.toggle-desszert {
+  display: none;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
 }
 @-webkit-keyframes loader-rotate {
   100% {

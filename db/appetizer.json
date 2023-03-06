@@ -2,6 +2,9 @@
     {
         "name": "Thai Hal pogácsa",
         "calo": "1990 ft",
+        "images": [
+            "images/appetizer/thaihalpogácsa.jpg"
+        ],
         "description": [
             "Thai fish cake",
             "Chả cá Thái Lan."
@@ -10,6 +13,9 @@
     {
         "name": "Rák tempura",
         "calo": "1990 ft",
+        "images": [
+            "images/appetizer/ráktempura.jpg"
+        ],
         "description": [
             "Shrimp tempura",
             "Tôm chiên xù"
@@ -18,6 +24,9 @@
     {
         "name": "Edamame bab",
         "calo": "990 ft",
+        "images": [
+            "images/appetizer/3edamamebab.jpg"
+        ],
         "description": [
             "Edamame bean",
             "Đậu Nhật hấp."
@@ -26,6 +35,10 @@
     {
         "name": "Sült gyoza",
         "calo": "1690 ft",
+        "images": [
+            "images/appetizer/sültgyoza.jpg",
+            "images/appetizer/HÁCẢOHẤP.jpg"
+        ],
         "description": [
             "Fried dumpling",
             "Há cảo chiên"
@@ -34,6 +47,9 @@
     {
         "name": "Nyári terkecs",
         "calo": "1990 ft",
+        "images": [
+
+        ],
         "description": [
             "Summer rolls",
             "Gỏi cuốn"
@@ -42,6 +58,9 @@
     {
         "name": "Tintahal tempura",
         "calo": "1990 ft",
+        "images": [
+            "images/appetizer/tintahaltempura.jpg"
+        ],
         "description": [
             "Squid tempura",
             "Mực tẩm bột chiên."
@@ -50,6 +69,10 @@
     {
         "name": "Tavaszi terkecs",
         "calo": "1690 ft",
+        "images": [
+            "images/appetizer/tavasziterkecs3db_1690.jpg",
+            "images/appetizer/tavasziterkecs3db.jpg"
+        ],
         "description": [
             "Spring rolls",
             "Chả nem."
@@ -58,6 +81,9 @@
     {
         "name": "Mangó és szárított rák saláta",
         "calo": "2790 ft",
+        "images": [
+            "images/appetizer/mangósalátatigrisrákkal.jpg"
+        ],
         "description": [
             "Mango and dried shrimp salad",
             "Salad xoài trộn tôm khô."
@@ -66,6 +92,9 @@
     {
         "name": "Mangó saláta tigris rákkal",
         "calo": "2790 ft",
+        "images": [
+
+        ],
         "description": [
             "Mango salad with tiger shrimp",
             "Nộm xoài tôm"
@@ -74,6 +103,9 @@
     {
         "name": "Koi saláta",
         "calo": "2490 ft",
+        "images": [
+
+        ],
         "description": [
             "Koi salad",
             "Nộm quán koi"
@@ -82,6 +114,9 @@
     {
         "name": "Wakame saláta",
         "calo": "990 ft",
+        "images": [
+            "images/appetizer/wakamesaláta_990.jpg"
+        ],
         "description": [
             "Wakame salad",
             "Salad rong biển"
@@ -90,11 +125,17 @@
     {
         "name": "Kim chi",
         "calo": "990 ft",
+        "images": [
+            "images/appetizer/kimchi.jpg"
+        ],
         "description": []
     },
     {
         "name": "Papaya saláta thai szósszal",
         "calo": "2990 ft",
+        "images": [
+            "images/appetizer/papayasalátathai.jpg"
+        ],
         "description": [
             "Papaya salad",
             "Nộm đu đủ"
@@ -103,6 +144,9 @@
     {
         "name": "Marha saláta",
         "calo": "2490 ft",
+        "images": [
+
+        ],
         "description": [
             "Beef salad.",
             "Nộm gầu bò"

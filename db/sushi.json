@@ -1,6 +1,17 @@
 [
     {
         "name": "Maki 6 db",
+        "images": [
+            "images/sushi/sushi.jpg",
+            "images/sushi/tonhalroll.jpg",
+            "images/sushi/Avokadoroll_3490ft.jpg",
+            "images/sushi/MAKI+Củcải_ Rétek japán_Radish_1290ft.jpg",
+            "images/sushi/MAKI+Lươn+dưa chuột_ unagi+uborka_ unagi+ uborka_2490ft.jpg",
+            "images/sushi/MAKI+Surimi_Surimi_Surimi_1990ft.jpg",
+            "images/sushi/MAKI+Trứng_Tojás_ Egg_1290ft.jpg",
+            "images/sushi/MAKICá ngừ_Tonhal_tuna_1690ft.jpg",
+            "images/sushi/UNAGI.jpg"
+        ],
         "ingredient": [
             {
                 "name": "Cá hồi/Lazac/Salmon",
@@ -42,6 +53,18 @@
     },
     {
         "name": "Nigiri 2db",
+         "images": [
+             "images/sushi/nigiriSoDiep.jpg",
+            "images/sushi/sushi.jpg",
+            "images/sushi/tonhalroll.jpg",
+            "images/sushi/NIGIRI +Lươn_Unagi_Unagi_1990ft.jpg",
+            "images/sushi/NIGIRI +Sò đỏ_Hokkigai_Hokkigai_1490ft.jpg",
+            "images/sushi/NIGIRI MIX 6990ft.jpg",
+            "images/sushi/NIGIRI+Bạch tuộc_Tintal Hal_Octopus_1490 ft..jpg",
+            "images/sushi/NIGIRI+Cá hồi_Lazac_Salmon_1590ft.jpg",
+            "images/sushi/NIGIRI+Cá ngừ_Tonhal_ Tuna_1890ft.jpg",
+            "images/sushi/NIGIRI+Lươn_Unagi_Unagi_1990ft"
+        ],
         "ingredient": [
             {
                 "name": "Sò điệp/Kagyló/Scallops",
@@ -87,6 +110,13 @@
     },
     {
         "name": "Sashimi",
+         "images": [
+            "images/sushi/SASHIMI3DBSCALOPS2490ft.jpg",
+            "images/sushi/SASHIMI5DB2490ft.jpg",
+            "images/sushi/SASHIMI5DBTUNA2490ft.jpg",
+            "images/sushi/SASHIMICÁHỒILAZAC5DB2490ft.jpg",
+            "images/sushi/SASHIMI+Vegyeshalszeletek15db_5950ft.jpg"
+        ],
         "ingredient": [
             {
                 "name": "5 db (lazac,tuna,octopus,japán scallops,Hokkigai",
@@ -96,6 +126,9 @@
     },
     {
         "name": "Koi Sashi mix",
+         "images": [
+            "images/sushi/sushi.jpg"
+        ],
         "ingredient": [
             {
                 "name": "Vegyes halszeletek 15db",
@@ -113,6 +146,12 @@
     },
     {
         "name": "Temaki",
+         "images": [
+            "images/sushi/sushi.jpg",
+            "images/sushi/tonhalroll.jpg",
+            "images/sushi/TEMAKI.jpg",
+            "images/sushi/TEMAKIZöldségek_1290ft.jpg"
+        ],
         "ingredient": [
             {
                 "name": "Lazac/Salmon/Cá hồi",
@@ -138,6 +177,12 @@
     },
     {
         "name": "Gunkan",
+         "images": [
+            "images/sushi/sushi.jpg",
+            "images/sushi/GUNKAN+Rongbiển_Wakame.jpg",
+            "images/sushi/GUNKAN+Trứng cá_ Hal Tojás.jpg",
+            "images/sushi/GUNKAN+Trứngcáhồi_Lazac.jpg"
+        ],
         "ingredient": [
             {
                 "name": "Rong biển/Wakame",
@@ -159,6 +204,12 @@
     },
     {
         "name": "Set",
+         "images": [
+             "images/sushi/SET+2fő.jpg",
+             "images/sushi/nigiriSoDiep.jpg",
+            "images/sushi/sushi.jpg"
+            
+        ],
         "ingredient": [
             {
                 "name": "2 fő:(5 nigiri,3 sashimi,2 gunkan,4 maki,4 roll,1 temaki ,Edamame bab)",
@@ -172,6 +223,11 @@
     },
     {
         "name": "Roll Japán sushi",
+         "images": [
+            "images/sushi/california.jpg",
+            "images/sushi/koiRoll.jpg"
+
+        ],
         "ingredient": [
             {
                 "name": "California",
@@ -201,6 +257,10 @@
     },
     {
         "name": "Koi bento",
+         "images": [
+            "images/sushi/sushi.jpg",
+            "images/sushi/koibento.jpg"
+        ],
         "ingredient": [
             {
                 "name": "",
@@ -210,6 +270,10 @@
     },
     {
         "name": "Specialis roll by koi",
+         "images": [
+            "images/sushi/sushi.jpg",
+            "images/sushi/specialisroll.jpg"
+        ],
         "ingredient": [
             {
                 "name": "Gunkan Koi ",

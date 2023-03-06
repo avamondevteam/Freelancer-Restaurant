@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Sült banán csoki öntet",
+        "calo": "1290 ft",
+        "images": [],
+        "description": [
+            "Fried banana",
+            "Chuối chiên."
+        ]
+    },
+    {
+        "name": "Mochi 3db ",
+        "calo": "1290 ft",
+        "images": [],
+        "description": []
+    },
+    {
+        "name": "Vietnami tojás kávé ",
+        "calo": "1490 ft",
+        "images": [
+            "images/desszert/56.Vietnamitojás.jpg"
+        ],
+        "description": [
+            "Vietnamese egg coffee",
+            "Cà phê trứng việt nam."
+        ]
+    }
+]

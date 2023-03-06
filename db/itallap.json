@@ -1,0 +1,311 @@
+[
+    {
+        "name": "Bor/wine",
+        "images": [
+
+        ],
+        "description": [
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Japán sake/Rượu sake/ riszbor 0.1l",
+                        "calo": "1290 ft"
+                    },
+                    {
+                        "name": "Soju ital/ rượu soju 0.33l",
+                        "calo": "2190 ft"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sör",
+        "images": [
+
+        ],
+        "description": [
+            {
+                "title": "üveges",
+                "type": [
+                    {
+                        "name": "Asahi:( japán)",
+                        "calo": "990 ft"
+                    },
+                    {
+                        "name": "Sài gòn: ( việt nam)",
+                        "calo": "1290 ft"
+                    },
+                    {
+                        "name": "Dreher 0,5l",
+                        "calo": "600 ft"
+                    },
+                    {
+                        "name": "Miller 0,33l",
+                        "calo": "600 ft"
+                    },
+                    {
+                        "name": "Corona extra 0,33l",
+                        "calo": "900 ft"
+                    }
+                ]
+            },
+            {
+                "title": "Csapos",
+                "type": [
+                    {
+                        "name": "Heineken 0,33l",
+                        "calo": "690 ft"
+                    },
+                    {
+                        "name": "Heineken 0,5l",
+                        "calo": "990  ft"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Coktail/ koktél",
+        "images": [
+            "images/drinks/mojito.jpg",
+            "images/drinks/bluetequila.jpg",
+            "images/drinks/blueocean.jpg",
+            "images/drinks/koifishcoktail.jpg"
+        ],
+        "description": [
+            {
+                "title": "Mojito ( citrom, menta, tequila, rum, cukor)",
+                "type": [
+                    {
+                        "name": "lemon, menthol, tequila, rum, sugar, soda",
+                        "calo": "1490 ft"
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Blue ocean ( cukor, soda, bule curacao, tejszín) ",
+                        "calo": "1490 ft"
+                    }
+                ]
+            },
+            {
+                "title": "Narancs tequila sunshine",
+                "type": [
+                    {
+                        "name": "(Narancs, tequila, siro gránátalma)",
+                        "calo": "1990 ft"
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Margarital (tequila, cointream, citranlé)",
+                        "calo": "1290 ft"
+                    }
+                ]
+            },
+        {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Koi Fish coktail (gin, blue curacao, licsi)",
+                        "calo": "1490 ft"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Limonádé",
+        "images": [
+            "images/drinks/LIMONADE.jpg",
+            "images/drinks/kamilla.jpg",
+            "images/drinks/vietnamtea.jpg",
+            "images/drinks/tropical.jpg",
+            "images/drinks/LIMONADE1.jpg",
+            "images/drinks/LIMONADE3.jpg",
+            "images/drinks/LIMONADE4.jpg"
+        ],
+        "description": [
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Sima (citrom, narancslé)",
+                        "calo": "1290 ft"
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Mentha (chia, szőlő, mentalé, uborka",
+                        "calo": "1290 ft"
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Ananász ( ananász, naranslé)",
+                        "calo": "1290 ft"
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Eper (eper, szőlő, eper szineap)",
+                        "calo": "1490 ft"
+                    }
+                ]
+            },
+            {
+                "title": "Tropical (ananász, narancs, csitrom, szőlő , eper)",
+                "type": [
+                    {
+                        "name": "Forró ital",
+                        "calo": ""
+                    },
+                    {
+                        "name": "Risz ital genmaicha forró koi étterem",
+                        "calo": "1290 ft"
+                    },
+                    {
+                        "name": "Kamilla tea",
+                        "calo": "990 ft"
+                    },
+                    {
+                        "name": "Vietnami tea( trà sâm dứa)",
+                        "calo": "790 ft"
+                    },
+                    {
+                        "name": "Tea",
+                        "calo": "650 ft"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Üdítő drink",
+        "images": [
+
+        ],
+        "description": [
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Aloe Vera 0,5l",
+                        "calo": "990 ft"
+                    },
+                    {
+                        "name": "Coca cola 0,25",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Coca cola light",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Coca cola zero",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Fanta narancs",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Sprite zero",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Kinley tonic",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Kinley gyömbér",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Cappy",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Alma,narancs,őszibarack,ananász",
+                        "calo": "490 ft"
+                    },
+                    {
+                        "name": "Fuzetea",
+                        "calo": "490 ft"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ásvány víz",
+        "images": [
+
+        ],
+        "description": [
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Szénsavmentes,mentes 0,35l",
+                        "calo": "390 ft"
+                    },
+                    {
+                        "name": "Szénsavmentes,mentes 0,7l",
+                        "calo": "790 ft"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kávé",
+        "images": [
+
+        ],
+        "description": [
+            {
+                "title": "",
+                "type": [
+                    {
+                        "name": "Espresso",
+                        "calo": "550 ft"
+                    },
+                    {
+                        "name": "Capuccino",
+                        "calo": "650 ft"
+                    },
+                    {
+                        "name": "Latte machiato",
+                        "calo": "750 ft"
+                    },
+                    {
+                        "name": "Koffeinmentes kávé",
+                        "calo": "550 ft"
+                    },
+                    {
+                        "name": "Phin kávé",
+                        "calo": "750 ft"
+                    }
+                ]
+            }
+        ]
+    }
+]
