@@ -403,11 +403,8 @@
 
 	<section class="ftco-section">
 		<div class="container">
-			<div class="overlay container-slick" >
-				<div class="slick-slider container-slick-slider" id="owl-example">
-					<img class="image-slick" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"/>
-					<img class="image-slick" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"/>
-				</div>
+			<div class="overlay" >
+				<div class="slick-slider" id="slick-slider"></div>
 			</div>
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-7 text-center heading-section ftco-animate">
@@ -882,22 +879,21 @@
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 		<script src="js/google-map.js"></script>
 		<script src="js/main.js"></script>
-		<script type="text/javascript" src="js/render.js"></script>
-
+		
 		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+		<script type="text/javascript" src="js/render.js"></script>
+		
 
 		<script type="text/javascript">
-			$(document).ready(function(){
-				$('#owl-example').slick({
-					infinite: true,
-					slidesToShow: 1,
-			  		slidesToScroll: 1,
-					  dots: false,
-					  arrows: false,
-				});
-			  });	
-			 
+				// $(document).ready(function(){
+  			// 	$('.slick-slider').slick({
+				// 		dots: false,
+				// 		arrows: false,
+				// 		infinite: true,
+				// 		speed: 300,
+				// 		slidesToShow: 1,
+				// 	});
+				// });
 		</script>
 	</body>
 	</html>
