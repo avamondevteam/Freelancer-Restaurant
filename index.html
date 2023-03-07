@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<script>
 		const dataSushi = $.getJSON('db/sushi.json', (data => {
 			$.each(data, function (key, value) {
@@ -35,9 +36,9 @@
 				).join('')
 				var elementSushi = `
 							<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
-								
-									<div class="menu-img img" style="background-image: url(${value.images[0]});"></div>
-									
+									<div class="menu-img img"
+									onclick="getImages('{{${value.images}}}')"
+									style="background-image: url(${value.images[0]});"></div>
 								<div class="text">
 									<div class="">
 										<h6 style="color: #E52B34;">${value.name}</h6>
@@ -164,7 +165,7 @@
 			$.each(data, function (key, value) {
 				var elementItallap = `
 				<div class="menus col-md-6 col-lg-4 d-flex ftco-animate">
-					<div class="menu-img img" style="background-image: url(${value.images[0]});"></div>
+					<div class="menu-img img buttonImages" style="background-image: url(${value.images[0]});"></div>
 					<div class="text">
 						<div class="">
 							<h6 style="color: #E52B34;">${value.name}</h6>
@@ -222,12 +223,11 @@
 				$(elementDesszert).appendTo(".desszert");
 			})
 		})
+
+		
 	</script>
 </head>
 <body>
-	<div class="overlay">
-		
-	</div>
 	<div class="wrap">
 		<div class="container">
 			
@@ -403,6 +403,12 @@
 
 	<section class="ftco-section">
 		<div class="container">
+			<div class="overlay container-slick" >
+				<div class="slick-slider container-slick-slider" id="owl-example">
+					<img class="image-slick" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"/>
+					<img class="image-slick" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"/>
+				</div>
+			</div>
 			<div class="row justify-content-center mb-5 pb-2">
 				<div class="col-md-7 text-center heading-section ftco-animate">
 					<span class="subheading">Különlegességek</span>
@@ -859,7 +865,7 @@
 		<!-- loader -->
 		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
+		<!--  -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery-migrate-3.0.1.min.js"></script>
 		<script src="js/popper.min.js"></script>
@@ -876,6 +882,22 @@
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 		<script src="js/google-map.js"></script>
 		<script src="js/main.js"></script>
-		<script src="js/render.js"></script>
+		<script type="text/javascript" src="js/render.js"></script>
+
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#owl-example').slick({
+					infinite: true,
+					slidesToShow: 1,
+			  		slidesToScroll: 1,
+					  dots: false,
+					  arrows: false,
+				});
+			  });	
+			 
+		</script>
 	</body>
 	</html>
