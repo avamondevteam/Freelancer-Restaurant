@@ -5,12 +5,13 @@
             "images/sushi/sushi.jpg",
             "images/sushi/tonhalroll.jpg",
             "images/sushi/Avokadoroll_3490ft.jpg",
-            "images/sushi/MAKI+Củcải_ Rétek japán_Radish_1290ft.jpg",
-            "images/sushi/MAKI+Lươn+dưa chuột_ unagi+uborka_ unagi+ uborka_2490ft.jpg",
+            "images/sushi/MAKI+Củcải_Rétekjapán_Radish_1290ft.jpg",
+            "images/sushi/MAKI+Lươn+dưachuột_unagi+uborka_unagi+uborka_2490ft.jpg",
             "images/sushi/MAKI+Surimi_Surimi_Surimi_1990ft.jpg",
-            "images/sushi/MAKI+Trứng_Tojás_ Egg_1290ft.jpg",
-            "images/sushi/MAKICá ngừ_Tonhal_tuna_1690ft.jpg",
-            "images/sushi/UNAGI.jpg"
+            "images/sushi/MAKI+Trứng_Tojás_Egg_1290ft.jpg",
+            "images/sushi/MAKICángừ_Tonhal_tuna_1690ft.jpg",
+            "images/sushi/UNAGI.jpg",
+            "images/sushi/NIGIRI+Mực_Tintal_Squids_1490ft"
         ],
         "ingredient": [
             {
@@ -57,12 +58,12 @@
              "images/sushi/nigiriSoDiep.jpg",
             "images/sushi/sushi.jpg",
             "images/sushi/tonhalroll.jpg",
-            "images/sushi/NIGIRI +Lươn_Unagi_Unagi_1990ft.jpg",
-            "images/sushi/NIGIRI +Sò đỏ_Hokkigai_Hokkigai_1490ft.jpg",
-            "images/sushi/NIGIRI MIX 6990ft.jpg",
-            "images/sushi/NIGIRI+Bạch tuộc_Tintal Hal_Octopus_1490 ft..jpg",
-            "images/sushi/NIGIRI+Cá hồi_Lazac_Salmon_1590ft.jpg",
-            "images/sushi/NIGIRI+Cá ngừ_Tonhal_ Tuna_1890ft.jpg",
+            "images/sushi/NIGIRI+Lươn_Unagi_Unagi_1990ft.jpg",
+            "images/sushi/NIGIRI+Sò đỏ_Hokkigai_Hokkigai_1490ft.jpg",
+            "images/sushi/NIGIRIMIX6990ft.jpg",
+            "images/sushi/NIGIRI+Bạchtuộc_TintalHal_Octopus_1490ft.jpg",
+            "images/sushi/NIGIRI+Cáhồi_Lazac_Salmon_1590ft.jpg",
+            "images/sushi/NIGIRI+Cángừ_Tonhal_Tuna_1890ft.jpg",
             "images/sushi/NIGIRI+Lươn_Unagi_Unagi_1990ft.jpg"
         ],
         "ingredient": [
@@ -180,7 +181,7 @@
          "images": [
             "images/sushi/sushi.jpg",
             "images/sushi/GUNKAN+Rongbiển_Wakame.jpg",
-            "images/sushi/GUNKAN+Trứng cá_ Hal Tojás.jpg",
+            "images/sushi/GUNKAN+Trứngcá_HalTojás.jpg",
             "images/sushi/GUNKAN+Trứngcáhồi_Lazac.jpg"
         ],
         "ingredient": [

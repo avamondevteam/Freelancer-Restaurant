@@ -2,9 +2,9 @@
     {
         "name": "Pirított rizs",
         "calo": "2990 ft",
-        "image": [
-           "images/mainDishes/21. Pirított rizs_ 2990.jpg",
-           "images/mainDishes/pirított rizs_ 2990.jpg"
+        "images": [
+            "images/mainDishes/21.Pirítottrizs_2990.jpg",
+            "images/mainDishes/pirítottrizs_2990.jpg"
         ],
         "description": [
             "marha/ beef/ bò.",
@@ -15,7 +15,7 @@
     {
         "name": "Grillezett kacsamell zöldségek, jászmin riszzel",
         "calo": "2990 ft",
-        "image": [
+        "images": [
             "images/mainDishes/grillezettkacsamellzöldségek.jpg"
         ],
         "description": [
@@ -26,7 +26,7 @@
     {
         "name": "Vietnami húspörkölt,zöldségek, és riszzel",
         "calo": "3290 ft",
-        "image": [
+        "images": [
             "images/mainDishes/Vietnamihúspörkölt,zöldségek,ésriszzel.jpg",
             "images/mainDishes/23.Zöldségekhúsokriszze.jpg",
             "images/mainDishes/23.Zöldségekhúsokriszzel.jpg"
@@ -39,7 +39,7 @@
     {
         "name": "Pad thai",
         "calo": "3290 ft",
-        "image": [
+        "images": [
             "images/mainDishes/24.Padthai_3290ft.jpg"
         ],
         "description": [
@@ -51,8 +51,8 @@
     {
         "name": "Pirított Pho tészta",
         "calo": "3290 ft",
-        "image": [
-           
+        "images": [
+            ""
         ],
         "description": [
             "Marha/ beef/ bò.",
@@ -63,7 +63,7 @@
     {
         "name": "Pirított üvegtészta",
         "calo": "3290 ft",
-        "image": [
+        "images": [
             "images/mainDishes/40.Marhasteak.jpg"
         ],
         "description": [
@@ -75,7 +75,7 @@
     {
         "name": "Bambusz ügyes marhahúsos",
         "calo": "2790 ft",
-        "image": [
+        "images": [
             "images/mainDishes/38.Békacomb.jpg"
         ],
         "description": [
@@ -86,7 +86,7 @@
     {
         "name": "Vietnam bún chả",
         "calo": "3290 ft",
-        "image": [
+        "images": [
             "images/mainDishes/28.Vietnambúnchả_3290.jpg"
         ],
         "description": []
@@ -94,7 +94,7 @@
     {
         "name": "Grillezett tigrisrák és sajttal 5db",
         "calo": "4500 ft",
-        "image": [
+        "images": [
             "images/mainDishes/29.Grillezetttigrisrákéssajttal.jpg"
         ],
         "description": [
@@ -105,7 +105,7 @@
     {
         "name": "Grillezett makréla 2 db",
         "calo": "9900 ft",
-        "image": [
+        "images": [
             "images/mainDishes/30.Grillezettmakréla.jpg"
         ],
         "description": [
@@ -115,8 +115,8 @@
     {
         "name": "Grillezett Bárány borda jászmin riszzel",
         "calo": "5500 ft",
-        "image": [
-           
+        "images": [
+            ""
         ],
         "description": [
             "Cơm sườn cừu."
@@ -125,7 +125,7 @@
     {
         "name": "Sült tilápia tál és thai szósszal",
         "calo": "8500 ft",
-        "image": [
+        "images": [
             "images/mainDishes/32.Sülttilápiatálésthai.jpg",
             "images/mainDishes/35.SültselyemTofu.jpg",
             "images/mainDishes/36.Grillezettchillistojásos.jpg",
@@ -136,187 +136,151 @@
             "Cá diêu Hồng chiên xù sốt thái."
         ]
     },
-    [
-        {
-            "name": "Sült lazac fej",
-            "calo": "3500 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Roasted salmon head.",
-                "Đầu cá hồi chiên."
-            ]
-        },
-        {
-            "name": "Sült marha bélszín bors mártás, zöldségek",
-            "calo": "4500 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Beef loin in Wok with pepper sauce.",
-                "Bò lúc lắc."
-            ]
-        },
-        {
-            "name": "Sült selyem Tofu hal szózssal",
-            "calo": "1990 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Fried silk tofu with fish sauce."
-            ]
-        },
-        {
-            "name": "Grillezett chillis tojásos hal",
-            "calo": "3290 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Grilled chilli egg fish.",
-                "Cá trứng nướng muối ớt."
-            ]
-        },
-        {
-            "name": "Sült fürj madár",
-            "calo": "4500 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Fried quail.",
-                "Chim Cút chiên."
-            ]
-        },
-        {
-            "name": "Békacomb és bambusz ügyek",
-            "calo": "2990 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Đùi ếch xào măng."
-            ]
-        },
-        {
-            "name": "Béka comb friss grillezett",
-            "calo": "3990 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Đùi ếch rang muối."
-            ]
-        },
-        {
-            "name": "Marha steak, omlett tojás, patétom és kenyér",
-            "calo": "4490 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Thịt bò áp chảo."
-            ]
-        },
-        {
-            "name": "Eel unagi kővestál és sushi riszzel",
-            "calo": "4490 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Cơm lươn bát đá."
-            ]
-        },
-        {
-            "name": "Sült kagyló zöld hagyma és földimogyoróval",
-            "calo": "4990 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Fried nussels with green onions and peanuts.",
-                "Sò nướng mỡ hành."
-            ]
-        },
-        {
-            "name": "Wokban sült tintahal zöldséggel",
-            "calo": "4500 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Octopus in wok with vegetable.",
-                "Bạch tuộc xào rau củ."
-            ]
-        },
-        {
-            "name": "Zöldségek és vietnami rák halszósszal és kenyérrel",
-            "calo": "2990 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Kho quẹt rau củ chấm bánh mì."
-            ]
-        },
-        {
-            "name": "Foghagymás tintahal hal szósszal",
-            "calo": "4900 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Squid with garlic sauce.",
-                "Mực chiên mắm tỏi"
-            ]
-        },
-        {
-            "name": "Sült királyrák rizs pankóval",
-            "calo": "4900 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Fried tiger shrimp in panko.",
-                "Tôm chiên cốm."
-            ]
-        },
-        {
-            "name": "Halszószos fokhogymás csirkeszárny 6db",
-            "calo": "3900 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Fish sauce, garlic chicken wing.",
-                "Cánh gà chiên mắm."
-            ]
-        },
-        {
-            "name": "Grillezett darált marhahús és vietnami növényekkel",
-            "calo": "2790 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Grilled beef with guise leaves.",
-                "Bò nướng lá lốt."
-            ]
-        },
-        {
-            "name": "Csiga tekercs",
-            "calo": "2990 ft",
-            "image": [
-                
-            ],
-            "description": [
-                "Snail rolls.",
-                "Chả ốc."
-            ]
-        }
-    ]
+    {
+        "name": "Sült lazac fej",
+        "calo": "3500 ft",
+        "images": [],
+        "description": [
+            "Roasted salmon head.",
+            "Đầu cá hồi chiên."
+        ]
+    },
+    {
+        "name": "Sült marha bélszín bors mártás, zöldségek",
+        "calo": "4500 ft",
+        "images": [],
+        "description": [
+            "Beef loin in Wok with pepper sauce.",
+            "Bò lúc lắc."
+        ]
+    },
+    {
+        "name": "Sült selyem Tofu hal szózssal",
+        "calo": "1990 ft",
+        "images": [],
+        "description": [
+            "Fried silk tofu with fish sauce."
+        ]
+    },
+    {
+        "name": "Grillezett chillis tojásos hal",
+        "calo": "3290 ft",
+        "images": [],
+        "description": [
+            "Grilled chilli egg fish.",
+            "Cá trứng nướng muối ớt."
+        ]
+    },
+    {
+        "name": "Sült fürj madár",
+        "calo": "4500 ft",
+        "images": [],
+        "description": [
+            "Fried quail.",
+            "Chim Cút chiên."
+        ]
+    },
+    {
+        "name": "Békacomb és bambusz ügyek",
+        "calo": "2990 ft",
+        "images": [],
+        "description": [
+            "Đùi ếch xào măng."
+        ]
+    },
+    {
+        "name": "Béka comb friss grillezett",
+        "calo": "3990 ft",
+        "images": [],
+        "description": [
+            "Đùi ếch rang muối."
+        ]
+    },
+    {
+        "name": "Marha steak, omlett tojás, patétom és kenyér",
+        "calo": "4490 ft",
+        "images": [],
+        "description": [
+            "Thịt bò áp chảo."
+        ]
+    },
+    {
+        "name": "Eel unagi kővestál és sushi riszzel",
+        "calo": "4490 ft",
+        "images": [],
+        "description": [
+            "Cơm lươn bát đá."
+        ]
+    },
+    {
+        "name": "Sült kagyló zöld hagyma és földimogyoróval",
+        "calo": "4990 ft",
+        "images": [],
+        "description": [
+            "Fried nussels with green onions and peanuts.",
+            "Sò nướng mỡ hành."
+        ]
+    },
+    {
+        "name": "Wokban sült tintahal zöldséggel",
+        "calo": "4500 ft",
+        "images": [],
+        "description": [
+            "Octopus in wok with vegetable.",
+            "Bạch tuộc xào rau củ."
+        ]
+    },
+    {
+        "name": "Zöldségek és vietnami rák halszósszal és kenyérrel",
+        "calo": "2990 ft",
+        "images": [],
+        "description": [
+            "Kho quẹt rau củ chấm bánh mì."
+        ]
+    },
+    {
+        "name": "Foghagymás tintahal hal szósszal",
+        "calo": "4900 ft",
+        "images": [],
+        "description": [
+            "Squid with garlic sauce.",
+            "Mực chiên mắm tỏi"
+        ]
+    },
+    {
+        "name": "Sült királyrák rizs pankóval",
+        "calo": "4900 ft",
+        "images": [],
+        "description": [
+            "Fried tiger shrimp in panko.",
+            "Tôm chiên cốm."
+        ]
+    },
+    {
+        "name": "Halszószos fokhogymás csirkeszárny 6db",
+        "calo": "3900 ft",
+        "images": [],
+        "description": [
+            "Fish sauce, garlic chicken wing.",
+            "Cánh gà chiên mắm."
+        ]
+    },
+    {
+        "name": "Grillezett darált marhahús és vietnami növényekkel",
+        "calo": "2790 ft",
+        "images": [],
+        "description": [
+            "Grilled beef with guise leaves.",
+            "Bò nướng lá lốt."
+        ]
+    },
+    {
+        "name": "Csiga tekercs",
+        "calo": "2990 ft",
+        "images": [],
+        "description": [
+            "Snail rolls.",
+            "Chả ốc."
+        ]
+    }
 ]
