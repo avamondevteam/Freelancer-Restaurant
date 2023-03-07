@@ -12942,10 +12942,10 @@ textarea.form-control {
 }
 
 .toggle-sushi {
-  display: block;
+  display: none;
 }
 .toggle-appetizer {
-  display: none;
+  display: block;
 }
 .toggle-soup {
   display: none;
@@ -12960,6 +12960,25 @@ textarea.form-control {
   display: none;
 }
 .toggle-desszert {
+  display: none;
+}
+
+.toggle-breakfast {
+  display: block;
+}
+.toggle-lunch {
+  display: none;
+}
+.toggle-dinner {
+  display: none;
+}
+.toggle-desserts{
+  display: none;
+}
+.toggle-wine {
+  display: none;
+}
+.toggle-drink {
   display: none;
 }
 

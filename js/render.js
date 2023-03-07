@@ -1,6 +1,6 @@
+
 var _$ = document.querySelector.bind(document);
 var $$ = document.querySelectorAll.bind(document);
-
 const buttonSushi = _$(".button-sushi");
 const buttonAppetizer = _$(".button-appetizer");
 const buttonSoup = _$(".button-soup");
@@ -103,3 +103,4 @@ overlay.addEventListener("click", function (e) {
   $(".slick-slider").slick("unslick");
   overlay.style.display = "none";
 });
+
