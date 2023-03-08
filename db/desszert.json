@@ -2,7 +2,7 @@
     {
         "name": "Sült banán csoki öntet",
         "calo": "1290 ft",
-        "images": [],
+        "images": ["images/logo.png"],
         "description": [
             "Fried banana",
             "Chuối chiên."
@@ -11,7 +11,7 @@
     {
         "name": "Mochi 3db ",
         "calo": "1290 ft",
-        "images": [],
+        "images": ["images/logo.png"],
         "description": []
     },
     {

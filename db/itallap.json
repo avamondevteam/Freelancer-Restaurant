@@ -2,7 +2,7 @@
     {
         "name": "Bor/wine",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             {
@@ -23,7 +23,7 @@
     {
         "name": "Sör",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             {
@@ -200,7 +200,7 @@
     {
         "name": "Üdítő drink",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             {
@@ -257,7 +257,7 @@
     {
         "name": "Ásvány víz",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             {
@@ -278,7 +278,7 @@
     {
         "name": "Kávé",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             {
