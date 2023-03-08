@@ -3,7 +3,7 @@
         "name": "Hot pot kecske hússal",
         "calo": "28000 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description":[
             "Hot pot with goat",
@@ -25,7 +25,7 @@
         "name": "Hot pot ponty-fűszer savanyúság",
         "calo": "25000 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description":[
             "Cá chép om dưa"
@@ -46,7 +46,7 @@
         "name": "Vegyes Angolna, tofu,zöld banán",
         "calo": "28000 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description":[
             "Mixef bowl with eel, tofu, green banana",

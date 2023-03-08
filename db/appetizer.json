@@ -48,7 +48,7 @@
         "name": "Nyári terkecs",
         "calo": "1990 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             "Summer rolls",
@@ -93,7 +93,7 @@
         "name": "Mangó saláta tigris rákkal",
         "calo": "2790 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             "Mango salad with tiger shrimp",
@@ -104,7 +104,7 @@
         "name": "Koi saláta",
         "calo": "2490 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             "Koi salad",
@@ -145,7 +145,7 @@
         "name": "Marha saláta",
         "calo": "2490 ft",
         "images": [
-
+            "images/logo.png"
         ],
         "description": [
             "Beef salad.",
